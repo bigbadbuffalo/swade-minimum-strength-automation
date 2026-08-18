@@ -1,0 +1,42 @@
+{
+  "id": "swade-minimum-strength-automation",
+  "title": "SWADE Minimum Strength Automation",
+  "description": "Adds optional Minimum Strength rules automation to Savage Worlds Adventure Edition, including Strength-limited weapon damage, armor penalties, ranged attack penalties, optional melee/thrown attack penalties, and partial melee/thrown positive-ability suppression.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Big Bad Buffalo",
+      "url": "https://github.com/bigbadbuffalo"
+    }
+  ],
+  "esmodules": [
+    "scripts/settings.js",
+    "scripts/strength-damage-limit.js",
+    "scripts/ranged-min-strength.js",
+    "scripts/melee-thrown-min-strength.js",
+    "scripts/melee-thrown-min-strength-restrictions.js",
+    "scripts/armor-min-strength.js",
+    "scripts/welcome-message.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.4",
+          "verified": "6.0.4"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/bigbadbuffalo/swade-minimum-strength-automation",
+  "manifest": "https://github.com/bigbadbuffalo/swade-minimum-strength-automation/releases/latest/download/module.json",
+  "download": "https://github.com/bigbadbuffalo/swade-minimum-strength-automation/releases/latest/download/module.zip",
+  "bugs": "https://github.com/bigbadbuffalo/swade-minimum-strength-automation/issues",
+  "readme": "https://github.com/bigbadbuffalo/swade-minimum-strength-automation/blob/main/README.md"
+}
